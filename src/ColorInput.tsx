@@ -3,7 +3,7 @@ import {Box, Button, Card, Container, Flex, Inline, Popover, Stack, Text} from '
 import React, {useCallback, useEffect, useRef, useState} from 'react'
 import {ObjectInputProps, ObjectOptions, ObjectSchemaType, set, unset} from 'sanity'
 import {CloseIcon} from '@sanity/icons'
-import {Chrome, ColorResult, HsvaColor, hslStringToHsva, rgbStringToHsva} from '@uiw/react-color'
+import {Chrome, ColorResult, HsvaColor, hslStringToHsva, rgbStringToHsva} from '@uiw/react-color/src/index'
 
 export interface SimplerColorType {
   label: string
